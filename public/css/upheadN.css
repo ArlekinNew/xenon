@@ -1,0 +1,110 @@
+.head_mod {
+	width: 100%;
+    /*max-width: 1920px;*/
+    /*margin: 0 auto;*/
+    /*background-color: #Fff;*/
+    display: flex;
+    flex-direction: row;
+    background: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.top_line {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.head_mod .h_block {
+    display: inline-block;
+    vertical-align: middle;
+}
+.phones {
+    text-align: center;
+    width: 220px;
+    /*border:3px solid red;*/
+    font-size: 110%;
+    font-weight: bold;
+}
+.phone1 .phone2{
+	color: white;
+}
+.head_mod .modal11 {
+    /*width: 170px;*/
+    cursor: pointer;
+    border: 1px solid transparent;
+    /*font-size: 22px;*/
+    color: white;
+    /*background-position: 7px center;*/
+    /*background-image: url(../img/source/main/button_phone.png);*/
+    /*background-color: #FF5C00;*/
+    box-sizing: border-box;
+    /*padding-top: 10px;*/
+    /*padding-bottom: 10px;*/
+    border-radius: 0;
+    /*margin-top: 10px;*/
+    transition: .4s;
+    -ms-transition: .4s;
+    -webkit-transition: .4s;
+    display: block;
+    transition-duration: .4s;
+    text-align: center;
+    /*font-family: "rr_m";*/
+
+}
+.logo {
+    text-align: center;
+    /*margin-right: 100px;*/
+}
+.roll{
+    color:#FF5C00;
+}
+.location {
+    position: relative;
+    margin-right: 95px;
+    /*border:3px solid red;*/
+    line-height: 32px;
+    font-size: 110%;
+    font-weight: bold;
+}
+.sched {
+    margin-right: 100px;
+    max-width: 200px;
+    width: 200px;
+    display: block;
+}
+.sched .header {
+    text-align: left;
+    color: #4d4d4d;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: "rr_r";
+    margin-bottom: 20px;
+    padding-left: 10px;
+    color: white;
+}
+.sched .time {
+    font-size: 110%;
+    font-weight: bold;
+    font-family: "rr_m";
+    color: #4d4d4d;
+    line-height: 35px;
+    color: white;
+}
+/*.descriptor {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 150%;
+    font-family: "rr_r";
+    color: black;
+    line-height: 24px;
+    text-align: center;
+}*/
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
