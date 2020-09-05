@@ -22,3 +22,8 @@ Route::get('/aboutus', 'MainController@aboutus');
 Route::get('/reviews', 'MainController@reviews');
 Route::get('/contacts', 'MainController@contacts');
 Route::get('/services', 'MainController@services');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
